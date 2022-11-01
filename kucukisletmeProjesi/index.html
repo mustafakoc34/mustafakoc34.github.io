@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Doğada Tatil</title>
+  </head>
+  <body>
+
+    <!-- ********Navbar--Start******** -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="back-to-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Doğada Tatil</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Hakkımızda </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">İletişim</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Rezervasyon
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Karavan</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Bungalov</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Çadır</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="javascript:tHouse();">Tiny House</a>
+              </div>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+        
+    </nav>
+    <!-- ********Navbar--END******** -->
+
+
+    <!-- Alt Başlık Start-->
+    <div class="container-fluid">
+      <div class="row altHeader">
+        <div class="col-sm-12 mb-5 text-center">
+          <h2>Türkiye'nin Doğada Tatil Platformu</h2>
+        </div>
+        
+      </div>
+      <div style="display: flex; justify-content: space-around; margin-bottom: 10px; ">
+        <div>
+          <img style="height: 100px;" src="./img/tent-svgrepo-com.svg" alt="">
+        </div>
+        <div>
+          <img style="height: 100px;" src="./img/cottage-svgrepo-com.svg" alt="">
+        </div>
+        <div>
+          <img style="height: 100px;"  src="./img/caravan-svgrepo-com.svg" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- Alt Başlık End-->
+
+
+
+
+    <!-- ******** Karavan--Container--START ******** -->
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-sm-3">
+          <h1 class="kategoriler" id="karavanBtn">KARAVAN</h1>
+        </div>
+        <div class="col-sm-3">
+          <h1 class="kategoriler" id="bungalovBtn">BUNGALOV</h1>
+        </div>
+        <div class="col-sm-3">
+          <h1 class="kategoriler" id="cadirBtn">ÇADIR</h1>
+        </div>
+        <div class="col-sm-3">
+          <h1 class="kategoriler" id="tHouseBtn">TINY HOUSE</h1>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="rightListArea">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card"> 
+            <img src="./img/karavanNo1.jpeg" class="card-img-top" alt="...">
+            <div class="card-body cardKaravan" >
+            <h3 class="card-text">Karavan No: 3.30</h3>
+            <ul>
+              <li class="baslik">Özellikler</li>
+              <li>Uzunluk: 3.30m</li>
+              <li>Kapasite: 4 kişilik</li>
+              <li>İki Gözlü Ocak-Gazlı</li>
+              <li>Buzdolabı 12v</li>
+              <li>Duş Kabini</li>
+            </ul>
+            </div>
+            <div>
+            <button type="button" class="btn btn-warning buton-stil rezerveBtn">Rezervasyon yap</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <img src="./img/380karavan.jpeg" class="card-img-top" alt="...">
+            <div class="card-body cardKaravan" >
+            <h3 class="card-text">Karavan No: 3.80</h3>
+            <ul>
+              <li class="baslik">Özellikler</li>
+              <li>Uzunluk: 3.80m</li>
+              <li>Kapasite: 4 kişilik</li>
+              <li>Arka Masa ve Oturma Grubu 2 Kişilik</li>
+              <li>İki Gözlü Ocak-Gazlı</li>
+              <li>Buzdolabı 12v</li>
+              <li>Duş Kabini</li>
+            </ul>
+            </div>
+            <div>
+            <button type="button" class="btn btn-warning buton-stil rezerveBtn">Rezervasyon yap</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <img src="./img/525karavan.jpg" class="card-img-top" alt="...">
+            <div class="card-body cardKaravan">
+            <h3 class="card-text karavan-yazi">Karavan No: 5.25</h3>
+            <ul>
+              <li class="baslik">Özellikler</li>
+              <li>Uzunluk: 5.25m</li>
+              <li>Kapasite: 6 kişilik</li>
+              <li>İki Gözlü Ocak-Gazlı</li>
+              <li>Buzdolabı 12v</li>
+              <li>Duş Kabini</li>
+            </ul>
+            </div>
+            <div>
+            <button type="button" class="btn btn-warning buton-stil rezerveBtn">Rezervasyon yap</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  <!--Alt 4lü Resimler Start-->
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>Gezilecek Yerleri Keşfet</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-lg-3">
+          <img src="https://picsum.photos/200/100" alt="">
+          <p>Sapanca</p>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <img src="https://picsum.photos/200/100" alt="">
+          <p>Bolu</p>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <img src="https://picsum.photos/200/100" alt="">
+          <p>Antalya</p>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <img src="https://picsum.photos/200/100" alt="">
+          <p>Fethiye</p>
+        </div>
+      </div>
+    </div>
+  <!--Alt 4lü Resimler End-->   
+    
+  <!-- *********FOOTER START******* -->
+  <footer class="container py-5">
+    <div class="row">
+      <div class="col-12 col-md">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24" focusable="false"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+        <small class="d-block mb-3 text-muted">&copy; 2017-2022</small>
+      </div>
+      <div class="col-6 col-md">
+        <h4>Features</h4>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">Cool stuff</a></li>
+          <li><a class="text-muted" href="#">Random feature</a></li>
+          <li><a class="text-muted" href="#">Team feature</a></li>
+          <li><a class="text-muted" href="#">Stuff for developers</a></li>
+          <li><a class="text-muted" href="#">Another one</a></li>
+          <li><a class="text-muted" href="#">Last time</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h4>Resources</h4>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">Resource</a></li>
+          <li><a class="text-muted" href="#">Resource name</a></li>
+          <li><a class="text-muted" href="#">Another resource</a></li>
+          <li><a class="text-muted" href="#">Final resource</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h4>Resources</h4>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">Business</a></li>
+          <li><a class="text-muted" href="#">Education</a></li>
+          <li><a class="text-muted" href="#">Government</a></li>
+          <li><a class="text-muted" href="#">Gaming</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h4>About</h4>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">Team</a></li>
+          <li><a class="text-muted" href="#">Locations</a></li>
+          <li><a class="text-muted" href="#">Privacy</a></li>
+          <li><a class="text-muted" href="#">Terms</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <!--**********FOOTER END*********-->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="custom.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+

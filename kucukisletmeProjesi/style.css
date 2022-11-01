@@ -1,0 +1,139 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(251, 251, 251);
+    padding: 0px;
+    margin: 0px;
+}
+
+h2{
+    text-shadow:2px 2px 5px rgb(38, 36, 36);
+}
+
+.altHeader{
+    /* border-bottom: 5px solid green;
+    box-shadow: 5px 1px 10px #222;  */
+    height: 200px; 
+    padding-top: 66px; 
+    
+}
+
+.altHeader h2{
+    text-shadow: none;
+    height: 50px;
+    padding-top: 9px;
+    color: green;
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
+.card{
+    background-color: rgb(208, 185, 36);
+    height: 500px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgb(139, 139, 139);
+    
+}
+
+.card-img-top{
+    height: 150px;
+    border-radius: 10px 10px 0 0;
+    
+}
+
+.card-body{
+    position: relative;
+    border-radius: 0 0 10px 10px;
+}
+
+.cardKaravan{
+    background-color: rgb(203, 203, 203);
+    
+}
+
+.cardBungalov{
+    background-color: rgb(203, 203, 203);}
+
+.cardCadir{
+    background-color: rgb(203, 203, 203);}
+
+.cardTinyHouse{
+    background-color: rgb(203, 203, 203);}
+
+.rezerveBtn{
+    background-color: rgb(121, 80, 19);
+    position:relative;
+}
+
+.hareket-1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 16rem;
+    transition: 0.3s ease; 
+}
+
+.hareket-1:hover{
+    width: 26rem;
+}
+
+.kategoriler{
+    font-size: 24px;
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    text-align: center;
+    color: rgb(248, 246, 244);
+    border: 2px solid rgb(58, 85, 57);
+    border-radius: 5px;
+    background-color: rgb(58, 85, 57);
+    box-shadow: 3px 3px 10px rgb(139, 139, 139);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+/* #bungalovBtn{
+    background-color: brown;
+    border-color: brown;
+}
+
+#cadirBtn{
+    background-color: rgb(13, 108, 146);
+    border-color:   rgb(13, 108, 146);
+}
+
+#tHouseBtn{
+    background-color: rgb(137, 13, 146);
+    border-color:   rgb(137, 13, 146);
+} */
+
+h3{
+    text-align: center;
+    color: #222;
+}
+
+.baslik{
+    font-size: 24px;
+    text-align: start;
+    color: goldenrod;
+}
+
+.buton-stil{
+    font-weight: bold;
+    color: rgb(248, 246, 244);
+}
+
+.navbar{
+    border-bottom: 5px solid rgb(58, 85, 57);
+}
+
+ul{
+    font-size: 14px;
+    list-style: none;
+    text-align: start;
+    color: #222;
+
+}
