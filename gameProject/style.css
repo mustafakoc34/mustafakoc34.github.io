@@ -1,0 +1,135 @@
+body{
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 800;
+    font-size: larger;
+    letter-spacing: 2px;
+    margin: auto;
+    background-color: rgb(17, 17, 17);
+    height: 100%;
+}
+
+#seviye{
+    font-size: 28px;
+    text-align: center;
+    margin: 0px auto 0px auto;
+    padding-top: 10px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 1px 10px 30px rgb(125, 33, 149);
+    color: antiquewhite;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(123, 33, 133);
+}
+
+#solAlan{
+    width: 400px;
+    height:600px;
+    background-image: url(./bg-0.jpg);
+    background-size: cover;
+    background-position: 55% 50%;
+    margin: 50px auto 0 auto;
+    position: relative;
+    border: 5px solid rgb(141, 22, 127);
+}
+
+.box{
+    --bgc: brown;
+    width: 150px;
+    height: 8px;
+    background-color: var(--bgc);
+    position: absolute;
+    bottom :0px;
+    animation: hareket infinite;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    border: 1px solid gold;
+    
+}
+
+.stopBox{
+    animation-play-state: paused;
+}
+
+/* @keyframes hareket {
+    0%   {transform: translate(0, 0);}
+    50%  {transform: translate(200px, 0);}
+    100% {transform: translate(0, 0);}
+} */
+
+@keyframes hareket {
+    0%   {left:0px;}
+    50%  {left:250px;}
+    100% {left:0px;}
+}
+
+@keyframes hareket2 {
+    0%   {left:0px;}
+    50%  {left:250px;}
+    100% {left:0px;}
+}
+
+@keyframes hareket3 {
+    0%   {left:0px;}
+    50%  {left:300px;}
+    100% {left:0px;}
+}
+
+@keyframes hareket4 {
+    0%   {left:0px;}
+    50%  {left:350px;}
+    100% {left:0px;}
+}
+
+#tekrarAlani{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 60px;
+    
+}
+
+#tekrar{
+    font-size: 24px;
+    background-color: chartreuse;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+}
+
+#tekrar a{
+    text-decoration: none;
+}
+
+h1{
+    color: aliceblue;
+}
+
+#verticalLine{
+    width: 10px;
+    height: 600px;
+    border: 5px dotted rgb(11, 243, 65);
+    /* background-color: aqua; */
+    position: absolute;
+    left: 675px;
+    top: 0px;
+    animation: dikeyHareket 4s infinite;
+    animation-timing-function: linear;
+}
+
+#verticalLine2{
+    width: 10px;
+    height: 600px;
+    border: 5px dotted rgb(11, 243, 65);
+    /* background-color: aqua; */
+    position: absolute;
+    left: 840px;
+    top: 0px;
+    animation: dikeyHareket 4s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes dikeyHareket {
+    0%   {top:0px;}
+    50%  {top:100px;}
+    100% {top:0px;}
+}
