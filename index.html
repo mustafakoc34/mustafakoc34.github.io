@@ -6,89 +6,120 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
     <title>Mustafa Koç | Portfolyo</title>
 </head>
 
 <body>
-    <div class="nav">
-        <a href="#iletisim" style="text-decoration: none;">
-            <div class="right-3">İletişim</div>
-        </a>
-        <a href="#fc-work" style="text-decoration: none;">
-            <div class="right-2">Projeler</div>
-        </a>
-    </div>
-    <div class="ana">
-        <div class="name-area">
-            <div class="isim">Ben, Mustafa KOÇ</div>
-            <a target="_blank" href="./Profile.pdf"
-                style="text-decoration: none; margin-top: 10px; color: rgb(27, 38, 59);">
-                <h3>CV-PDF</h3>
-            </a>
-        </div>
-        <div class="pp">
-            <div class="avatar"></div>
-        </div>
-        <div class="info" id="info">
-            1990 yılında İstanbul'da doğdum. 2012 yılında Atatürk Üniversitesi, Mühendislik Fakültesi,
-            Makine Mühendisliği bölümünden mezun oldum. 2015 yılında askerlik görevini tamamladıktan
-            sonra Merkas Tekstil'de çalışmaya başladım. Daha sonra Şehzade Grup, Saatstore Saatçilik
-            şirketlerinde çalıştım. Şu anda freelancer olarak çalışıyorum. Doğa Hareketleri Araştırma Derneği için
-            yaptığım Dohad Erken Uyarı uygulamasını Play Store'da inceleyip indirebilirsiniz.
-        </div>
-    </div>
 
-    <!--Work-->
-
-    <div class="nav">
-    </div>
-    <div class="part-2" id="fc-work">
-        <div class="part-2-project">
-            <h2>Project 1</h2>
-            <h3>Dohad Erken Uyarı</h3>
-            <p>Doğa Hareketleri Araştırma Derneği için frontend tarafını react native, backend tarafını nodejs kullanarak yaptığım uygulama. 
-                Bildirimler için FCM kullanarak son deprem bilgilerini bildirim olarak alabiliyorsunuz.  </p>
-            
-        </div>
-        <div class="part-2-project">
-            <h2>Project 2</h2>
-            <h3>Sismikalarm</h3>
-            <p>Yapımına katkıda bulunduğum LGA elektronik için yapılan websitesi</p>
-            <a href="https://sismikalarm.com.tr/">sismikalarm.com.tr</a>
-        </div>
-        
-    </div>
-
-
-    <!-- Footer -->
-    <div id="iletisim">
-        <div class="con">
-            <div style="width: 100%; text-align: center;">
-                <h2 style="color: rgb(236, 242, 246);">İletişim Bilgileri</h2>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light" href="#">Mustafa Koç</a>
             </div>
-            <div class="con-left">
-                <div id="linkedin">
-                    <img src="./img/icons8-linkedin.svg" alt="" style="width: 40px; height: 40px;">
-                    <a href="https://www.linkedin.com/in/mustafakoc34/"
-                        style="text-decoration: none; color: rgb(25, 25, 24);">Linkedin</a>
+        </nav>
+        <div class="row mt-5">
+            <div class="col-sm-8">
+                <div class="row">
+                    <div class="col-sm-12" >
+                        <div class="card shadow-sm p-4 bg-body rounded" style="max-width: 100%; ">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="./img/pp-3.png" class="img-fluid rounded-start bg-warning" alt="profil"
+                                        style="width: 300px;">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Merhaba, Ben Mustafa KOÇ</h5>
+                                        <p class="card-text">1990 yılında İstanbul'da doğdum. 2012 yılında Atatürk
+                                            Üniversitesi,
+                                            Mühendislik Fakültesi,
+                                            Makine Mühendisliği bölümünden mezun oldum. 2015 yılında askerlik görevini
+                                            tamamladıktan
+                                            sonra Merkas Tekstil'de çalışmaya başladım. Daha sonra Şehzade Grup,
+                                            Saatstore
+                                            Saatçilik
+                                            şirketlerinde çalıştım. Şu anda freelancer olarak çalışıyorum. Doğa
+                                            Hareketleri
+                                            Araştırma Derneği için
+                                            yaptığım Dohad Erken Uyarı uygulamasını Play Store'da inceleyip
+                                            indirebilirsiniz.
+                                        </p>
+                                        <a href="./Profile.pdf"
+                                            class="btn btn-outline-primary text-decoration-none text-center">CV
+                                            Görüntüle</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 mt-3">
+                        <h2>Projeler</h2>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="card shadow-sm p-3 mb-5 bg-body rounded"
+                                    style="width: 100%; min-height:300px">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Sismikalarm</h5>
+                                        <p class="card-text">Yapımına katkıda bulunduğum LGA elektronik için yapılan
+                                            websitesi
+                                        </p>
+                                        <a href="https://sismikalarm.com.tr/"
+                                            class="btn btn-primary">sismikalarm.com.tr</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="card shadow-sm p-3 mb-5 bg-body rounded"
+                                    style="width:100%; min-height:300px">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Dohad Erken Uyarı</h5>
+                                        <p class="card-text">Doğa Hareketleri Araştırma Derneği için frontend tarafını
+                                            react
+                                            native,
+                                            backend tarafını nodejs
+                                            kullanarak yapılan uygulama.
+                                            Bildirimler için FCM kullanarak son deprem bilgilerini bildirim olarak
+                                            alabiliyorsunuz.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div id="github">
-                    <img src="./img/GitHub-Mark-64px.png" alt="" style="width: 35px; height: 35px;">
-                    <a href="https://github.com/mustafakoc34?tab=repositories"
-                        style="text-decoration: none; color: rgb(25, 25, 24);">Github</a>
+            </div>
+            <div class="col-sm-4 bg-dark rounded text-light p-4" style="max-height: 600px;">
+                <h2>İletişim Bilgileri</h2>
+                <div class="row">
+                    <div class="col-sm-12 d-flex align-items-center">
+                        <i class="bi bi-phone" style="font-size: xx-large; padding-right:3px;"></i>
+                        <span>0554 670 21 98</span>
+                    </div>
+                    <div class="col-sm-12 d-flex align-items-center">
+                        <i class="bi bi-envelope" style="font-size: xx-large; padding-right:3px;"></i>
+                        <span>34mustafakoc@gmail.com</span>
+                    </div>
+                    <div class="col-sm-12 d-flex align-items-center">
+                        <i class="bi bi-github" style="font-size: xx-large; padding-right:3px;"></i>
+                        <span>https://github.com/mustafakoc34</span>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <h2>Yetenekler</h2>
+                    <p>NodeJS</p>
+                    <p>React Native</p>
+                    <p>SolidWorks</p>
                 </div>
             </div>
-            <div class="con-center">
-                <img src="./img/icons8-phone-48.png" alt="" style="width: 40px; height: 40px;">
-                <p>Cep Tel : 0554-6702198</p>
-            </div>
-            <div class="con-right">
-                <img src="./img/icons8-mail-50.png" alt="" style="width: 40px; height: 40px;">
-                <p>34mustafakoc@gmail.com</p>
-            </div>
+
+
         </div>
     </div>
+
+    <script src=" 	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
