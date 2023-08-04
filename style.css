@@ -133,7 +133,7 @@ body {
 }
 
 
-.part-2-left {
+.part-2-project {
     text-align: center;
     line-height: 20px;
     width: 350px;
@@ -147,7 +147,7 @@ body {
     padding: 40px;
 
 }
-.part-2-left a{
+.part-2-project a{
     text-decoration: none;
     font-size: 22px;
 }
@@ -169,22 +169,6 @@ body {
     font-size: 22px;
 }
 
-.part-2-right {
-    text-align: center;
-    line-height: 20px;
-    width: 350px;
-    height: 300px;
-    border: 3px solid rgb(27, 38, 59);
-    background-color: rgba(248, 248, 248, 0.6);
-    color: rgb(25, 25, 24);
-    border-radius: 10px;
-    box-sizing: border-box;
-    padding: 40px;
-}
-.part-2-right a{
-    text-decoration: none;
-    font-size: 22px;
-}
 
 
 .con {
